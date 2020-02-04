@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Formulario 3</title>
+    </head>
+    <body>
+        <table frame="box" align=justify>
+            <tr>
+                <td>
+                    <p><br></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Nombre:
+                        <input type="text" name="nombre">
+                    </p>
+                </td>
+                <td>
+                    <p>F.Nac.:
+                        <input type="date" name="fecha">
+                    </p>
+                </td>
+                <td>
+                    <p>DNI:
+                        <input type="text" name="dni" max="9" min="9">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>Apellidos:
+                        <input type="text" name="apellidos">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>Calle y n&uacute;mero:
+                        <input type="text" name="dirección">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1,5">
+                    <p>Codigo Postal:
+                        <input type="number" step="any">
+                    </p>
+                </td>
+                <td colspan="1,5">
+                    <p>
+                        Ciudad:
+                        <input type="text" name="ciudad">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Provincia:
+                        <input type="text" name="provincia">
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Tel&eacute;fono:
+                        <input type="tel" name="telefono">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Opci&oacute;n:
+                        <select name="menu">
+                          <option value="0"></option>
+                          <option value="1">Uno</option>
+                          <option value="2">Dos</option>
+                          <option value="3">Tres</option>
+                        </select>
+                        Escoja una opci&oacute;n
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Comentarios personales:
+                        <textarea name="personales" rows="5" cols="50"></textarea>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Pulse aqu&iacute;:</b>
+                    </p>
+                </td>
+                <td>
+                    <p align=center>
+                        <input type="submit" value="Enviar datos">
+                        <input type="reset" value="Borrar datos">
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

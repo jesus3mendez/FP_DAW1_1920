@@ -1,0 +1,21 @@
+<html>
+<head>
+<title> ejemplo de tabla </title>
+</head>
+<body>
+<table border="1">
+<tr>
+<td>Sabado</td>
+<td>Domingo</td>
+</tr>
+<tr>
+<td>Ir al cine</td>
+<td> Dar un paseo </td>
+</tr>
+<tr>
+<td>Estudiar redes</td>
+<td> Estudiar marcas </td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+            Formulario 2
+        </title>
+    </head>
+    <body>
+        <table frame="box" width="400px">
+            <caption><B>Pedido de Pizza</B></caption>
+             <form action="mailto:jesus1999negri@gmail.com" method="post" enctype="text/plain">
+                <tr>
+                    <td colspan="3">
+                        <p align="center"><b>Nombre:</b>
+                            <input type="text" name="nombre"> 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p align="center"><b> Dirección:</b>
+                            <input type="text" name="dirección">
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b>Ingredientes</b><br>
+                            <input type="checkbox" name="ingredientes">Queso<br>
+                            <input type="checkbox" name="ingredientes">Pimiento<br>
+                            <input type="checkbox" name="ingredientes">Cebolla<br>
+                        </p>
+                    </td>
+                    <td>
+                        <p><b>Tamaño</b><br>
+                            <input type="radio" name="tamaño">Pequeña<br>
+                            <input type="radio" name="tamaño">Mediana<br>
+                            <input type="radio" name="tamaño">Grande<br>
+                        </p>
+                    </td>
+                    <td valign=top>
+                        <p ><b>Formas de pago</b><br>
+                            <select name="menu">
+                                <option value="1" selected>Visa</option>
+                                <option value="2">Efectivo</option>
+                            </select>
+                        </p>
+                    </td> 
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p><b>Instrucciones Especiales</b><br>
+                            <textarea name="texto" rows="5" cols="30"></textarea>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p align="center">
+                              <input type="submit" value="Ok">
+                                <input type="reset" value="Resetear">
+                        </p>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
